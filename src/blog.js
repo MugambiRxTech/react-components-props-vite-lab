@@ -1,11 +1,26 @@
 const blogData = {
-  name: "Personal Blog",
-  image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=400&q=80",
-  about: "Welcome to my blog where I share ideas, projects, and lessons I'm learning.",
+  name: "Underreacted",
+  image: "https://via.placeholder.com/215",
+  about: "About this blog",
   posts: [
-    { id: 1, title: "Getting Started with React", date: "2026-01-31", preview: "React makes building UIs easier using reusable components and props." },
-    { id: 2, title: "Understanding Props", date: "2026-01-28", preview: "Props let you pass data from a parent component to a child component." },
-    { id: 3, title: "Component Trees", date: "2026-01-25", preview: "Component trees help organize UI into small, reusable pieces." },
+    {
+      id: 1,
+      title: "Components 101",
+      date: "December 15, 2020",
+      preview: "Setting up the building blocks of your site",
+    },
+    {
+      id: 2,
+      title: "React Data Flow",
+      date: "December 11, 2020",
+      preview: "Passing props is never passé",
+    },
+    {
+      id: 3,
+      title: "Function Components vs Class Components",
+      date: "December 10, 2020",
+      preview: "React, meet OOJS.",
+    },
   ],
 };
 

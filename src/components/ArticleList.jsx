@@ -2,7 +2,7 @@ import Article from "./Article";
 
 export default function ArticleList({ posts }) {
   return (
-    <main className="main">
+    <main>
       {posts.map((post) => (
         <Article
           key={post.id}

@@ -1,11 +1,11 @@
 export default function About({
   image = "https://via.placeholder.com/215",
-  about,
+  about = "",
 }) {
   return (
-    <aside className="aboutCard">
-      <img className="aboutImg" src={image} alt="blog logo" />
-      <p className="aboutP">{about}</p>
+    <aside>
+      <img src={image} alt="blog logo" />
+      <p>{about}</p>
     </aside>
   );
 }
